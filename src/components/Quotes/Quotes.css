@@ -1,0 +1,44 @@
+.quote-wrapper {
+	max-width: 40rem;
+	margin: auto;
+	position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid #ccc;
+    border-radius: .25rem;
+    padding: 2rem;
+}
+.quote {
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 2rem;
+}
+.author {
+	font-size: 2.6rem;
+	margin-top: 2rem;
+	text-align: right;
+}
+.btn-quote {
+	margin-top: 2rem;
+	-webkit-appearance: button;
+    display: inline-block;
+    font-weight: 600;
+    color: #fff;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #465246;
+    border: 1px solid #465246;
+    padding: .375rem .75rem;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    padding: 1.5rem 3rem;
+    padding-top: 1.2rem;
+}

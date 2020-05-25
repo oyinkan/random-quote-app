@@ -1,0 +1,16 @@
+nav {
+	background: #222;
+	height: 50px;
+}
+nav a {
+	color: #fff;
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 16px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+nav a:hover,
+nav a.active {
+	color: #00ff00;
+}
